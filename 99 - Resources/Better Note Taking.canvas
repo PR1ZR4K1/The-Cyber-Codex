@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"04da1948ff62b751","type":"text","text":"Better Note Taking\n","x":-240,"y":-280,"width":250,"height":60,"color":"6"},
+		{"id":"be5e8afb28ca9b56","type":"text","text":"Obsidian ","x":-460,"y":-640,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f23ae7992b0c2135","fromNode":"04da1948ff62b751","fromSide":"top","toNode":"be5e8afb28ca9b56","toSide":"bottom"}
+	]
+}

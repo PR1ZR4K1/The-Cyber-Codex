@@ -1,0 +1,310 @@
+{
+  "nodePositions": [
+    {
+      "id": "98 - Templates/Core Zettel idea.md",
+      "x": -642.381591796875,
+      "y": -331.0364685058594
+    },
+    {
+      "id": "README.md",
+      "x": -103.52684783935547,
+      "y": -610.608642578125
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Arch.md",
+      "x": 108.51737213134766,
+      "y": 207.2367401123047
+    },
+    {
+      "id": "Operating Systems",
+      "x": 135.07351684570312,
+      "y": 555.2089233398438
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Bin and Sbin Directories - Essential Binaries.md",
+      "x": -370.0058898925781,
+      "y": -213.53973388671875
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Dev Directory - Device File Representation.md",
+      "x": -564.296142578125,
+      "y": 62.58057403564453
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Etc Directory - System Configuration Files.md",
+      "x": -472.36669921875,
+      "y": -151.01263427734375
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Fedora.md",
+      "x": -110.13518524169922,
+      "y": 464.04156494140625
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Global Area Network (GAN).md",
+      "x": 386.0002136230469,
+      "y": -207.23902893066406
+    },
+    {
+      "id": "Networking",
+      "x": 544.623046875,
+      "y": -408.9330139160156
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Home Directory.md",
+      "x": -518.3720092773438,
+      "y": 173.42535400390625
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Lib Directory - Libraries for Binaries.md",
+      "x": -149.6401824951172,
+      "y": -210.81277465820312
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux - Basic Commands.md",
+      "x": 79.10005950927734,
+      "y": -54.987586975097656
+    },
+    {
+      "id": "Shell",
+      "x": 279.7367248535156,
+      "y": 83.2720718383789
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux - Distributions (Distros).md",
+      "x": -130.99940490722656,
+      "y": 221.34860229492188
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux - File Permissions.md",
+      "x": -30.282052993774414,
+      "y": -198.4366455078125
+    },
+    {
+      "id": "File System",
+      "x": -263.522705078125,
+      "y": -297.6176452636719
+    },
+    {
+      "id": "Security",
+      "x": 206.08224487304688,
+      "y": -256.7597961425781
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux - File System.md",
+      "x": -260.59130859375,
+      "y": -9.186392784118652
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux - Introduction.md",
+      "x": 227.461181640625,
+      "y": 191.61729431152344
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux - Package Management.md",
+      "x": -29.130603790283203,
+      "y": 375.0900573730469
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux - Shell and Terminal.md",
+      "x": -0.47687286138534546,
+      "y": 157.11007690429688
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux Kernel - Device Management.md",
+      "x": -90.47772216796875,
+      "y": 582.3910522460938
+    },
+    {
+      "id": "Kernel",
+      "x": 15.236969947814941,
+      "y": 703.2343139648438
+    },
+    {
+      "id": "Operating System Concepts - Device Management",
+      "x": -342.750732421875,
+      "y": 652.0711669921875
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux Kernel - Memory Management.md",
+      "x": -202.81622314453125,
+      "y": 540.269287109375
+    },
+    {
+      "id": "Operating System Concepts - Memory Management",
+      "x": -435.7930908203125,
+      "y": 388.8568115234375
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux Kernel - Overview.md",
+      "x": 83.6607666015625,
+      "y": 443.4678955078125
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux Kernel - Process Management.md",
+      "x": -151.29373168945312,
+      "y": 351.36627197265625
+    },
+    {
+      "id": "Operating System Concepts - Process Management",
+      "x": -382.7851257324219,
+      "y": 496.4971923828125
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Local Area Network (LAN).md",
+      "x": 714.977294921875,
+      "y": -182.96551513671875
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Metropolitan Area Network (MAN).md",
+      "x": 645.818115234375,
+      "y": -301.4885559082031
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Microkernel OS.md",
+      "x": 485.9654846191406,
+      "y": 583.8158569335938
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Modem.md",
+      "x": 278.71014404296875,
+      "y": -403.5162658691406
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Modular OS.md",
+      "x": 465.8150329589844,
+      "y": 327.58465576171875
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Monolithic OS.md",
+      "x": 324.2813720703125,
+      "y": 522.4756469726562
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Networking - Introduction.md",
+      "x": 438.8333740234375,
+      "y": -343.44903564453125
+    },
+    {
+      "id": "TCP IP Model",
+      "x": 358.3878173828125,
+      "y": -90.47315979003906
+    },
+    {
+      "id": "OSI Model",
+      "x": 161.501708984375,
+      "y": -377.83917236328125
+    },
+    {
+      "id": "Network Topology",
+      "x": 202.0514373779297,
+      "y": -495.8129577636719
+    },
+    {
+      "id": "Network Protocols",
+      "x": 331.6271057128906,
+      "y": -577.3349609375
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Operating System Concepts - Organization of Operating System.md",
+      "x": 239.55252075195312,
+      "y": 384.2427673339844
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Peer to Peer Network (P2P).md",
+      "x": 651.7443237304688,
+      "y": -80.98414611816406
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Personal Area Network (PAN).md",
+      "x": 528.3641357421875,
+      "y": 12.597152709960938
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Pop!_OS.md",
+      "x": 79.2152328491211,
+      "y": 323.5534362792969
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Proc Directory - Process Information Viewer.md",
+      "x": -40.47769546508789,
+      "y": -78.90882873535156
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Root Directory.md",
+      "x": -2.4708828926086426,
+      "y": 34.89574432373047
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Router.md",
+      "x": 217.62796020507812,
+      "y": -614.7921752929688
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Switch.md",
+      "x": 449.2850341796875,
+      "y": -608.8139038085938
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Sys Directory - System Hardware Interface.md",
+      "x": -491.2873229980469,
+      "y": -32.57439422607422
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Tmp Directory - Temporary File Storage.md",
+      "x": -445.33734130859375,
+      "y": 78.26563262939453
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/UNIX Architecture.md",
+      "x": 377.85546875,
+      "y": 409.21124267578125
+    },
+    {
+      "id": "UNIX",
+      "x": 598.9681396484375,
+      "y": 271.164306640625
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Ubuntu.md",
+      "x": -243.97601318359375,
+      "y": 427.57196044921875
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Usr Directory - User Binaries and Read-Only Data.md",
+      "x": -410.48211669921875,
+      "y": 225.90316772460938
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Wide Area Network (WAN).md",
+      "x": 495.5555419921875,
+      "y": -128.3683624267578
+    },
+    {
+      "id": "01 - Classes/CSE 4600 - Operating Systems/Course Goals.md",
+      "x": -423.351806640625,
+      "y": -380.9723815917969
+    },
+    {
+      "id": "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md",
+      "x": -263.9810485839844,
+      "y": -157.39320373535156
+    },
+    {
+      "id": "Windows",
+      "x": -274.56951904296875,
+      "y": -430.9394836425781
+    },
+    {
+      "id": "98 - Templates/Map of Content.md",
+      "x": -263.2008056640625,
+      "y": -651.0582885742188
+    },
+    {
+      "id": "00 - 🕮 Zettelkasten/Linux.md",
+      "x": -222.4443817138672,
+      "y": 130.35726928710938
+    }
+  ],
+  "automaticallyRestoreNodePositions": true
+}

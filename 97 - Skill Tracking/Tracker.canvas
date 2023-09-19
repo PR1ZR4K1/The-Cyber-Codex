@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d02ad636fb9550aa","type":"text","text":"M00NL1G7","x":-80,"y":-60,"width":142,"height":60},
+		{"id":"92dd38eb5442e0b2","type":"text","text":"Cybersecurity","x":-420,"y":120,"width":186,"height":60}
+	],
+	"edges":[
+		{"id":"26c6f32bd4af11ce","fromNode":"d02ad636fb9550aa","fromSide":"left","toNode":"92dd38eb5442e0b2","toSide":"right"}
+	]
+}
