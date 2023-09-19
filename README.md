@@ -1,10 +1,10 @@
 ### Hello, World!
 
-# M00NL1G7 Lexicon
-Welcome to the **M00NL1G7 Lexicon**, a living repository where I chronicle the continuous journey of acquiring and honing various skills throughout my career. This lexicon is a sophisticated yet approachable space, designed to nurture a mindset of lifelong learning and mastery in a multitude of domains, including but not limited to cyber skills and programming.
+# PR1ZR4K1 Codex
+Welcome to the **PR1ZR4K1 Codex**, a living repository where I chronicle the continuous journey of acquiring and honing various skills throughout my career. This lexicon is a sophisticated yet approachable space, designed to nurture a mindset of lifelong learning and mastery in a multitude of domains, including but not limited to cyber skills and programming.
 ## Overview
 
-In the M00NL1G7 Lexicon, I have embarked on a mission to create a rich tapestry of knowledge and expertise, a personal testament to my commitment to growth and innovation. Here, I document my evolving skill set, experiences, and insights, creating a dynamic knowledge base that reflects my professional/personal journey.
+In the PR1ZR4K1 Codex, I have embarked on a mission to create a rich tapestry of knowledge and expertise, a personal testament to my commitment to growth and innovation. Here, I document my evolving skill set, experiences, and insights, creating a dynamic knowledge base that reflects my professional/personal journey.
 
 ## Features
 
@@ -33,6 +33,4 @@ Each contribution to the M00NL1G7 Lexicon is a milestone in my journey, a testam
 
 ## Conclusion
 
-The M00NL1G7 Lexicon is not just a repository but a beacon of my dedication to continuous learning and excellence. It stands as a sophisticated, intelligent, yet humble chronicle of my professional journey, illuminating the path of knowledge and expertise that lies ahead.
-
-Welcome to my space of enlightenment, growth, and mastery. Welcome to the M00NL1G7 Lexicon!
+The PR1ZR4K1 Codex is not just a repository but a beacon of my dedication to continuous learning and excellence. It stands as a sophisticated, intelligent, yet humble chronicle of my professional journey, illuminating the path of knowledge and expertise that lies ahead.
