@@ -6,7 +6,7 @@ Tags: [[React]]
 
 Here are some basic features to consider:
 
--  **[[JSX]]**
+- **[[JSX]]**
 - **[[Components - Introduction]]**
 
 - Fundamental building blocks in a React application.

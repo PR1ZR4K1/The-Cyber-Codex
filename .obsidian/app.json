@@ -1,5 +1,6 @@
 {
   "promptDelete": true,
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "95 - Images"
 }

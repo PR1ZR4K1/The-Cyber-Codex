@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,14 +243,30 @@
   },
   "active": "bed584789e4a8865",
   "lastOpenFiles": [
-    "01 - Classes/CSE 4600 - Operating Systems/Lecture 5 (Thread Synchronization).md",
-    "01 - Classes/CSE 4600 - Operating Systems/POSIX API.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Starvation.md",
-    "race-condition ex1.png",
+    "00 - 🕮 Crazy Notes/Tailwind CSS.md",
+    "00 - 🕮 Crazy Notes/React - Next.md",
+    "00 - 🕮 Crazy Notes/React - Features.md",
     "01 - Classes/CSE 4600 - Operating Systems/Race Conditions.md",
-    "pipeline-model.png",
-    "dispatcher-model.png",
-    "thread-ex1.png",
+    "01 - Classes/CSE 4600 - Operating Systems/Program Counter (PC).md",
+    "01 - Classes/CSE 4600 - Operating Systems/Lecture 5 (Thread Synchronization).md",
+    "01 - Classes/CSE 4600 - Operating Systems/Starvation.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Mutex Lock.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Semaphores.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Condition Variable.md",
+    "95 - Images/producer consumer example2.png",
+    "95 - Images/producer consumer example.png",
+    "2023-09-11.md",
+    "01 - Classes/CSE 4600 - Operating Systems/POSIX API.md",
+    "95 - Images/C Memory Layout.png",
+    "99 - Resources/Knowledge Pyramids.png",
+    "C Memory Layout.png",
+    "95 - Images/two-level model.png",
+    "95 - Images/thread-ex1.png",
+    "95 - Images/race-condition ex1.png",
+    "95 - Images/Process Lifecycle.png",
+    "95 - Images/Process Execution State.png",
+    "95 - Images",
+    "README.md",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.5 Watch a turn-of-the-century.md",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 1) Foundation of Ethical Jounalism.md",
     "01 - Classes/CSE 4600 - Operating Systems/Lecture 4 (Process v. Threads).md",
@@ -259,13 +275,6 @@
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 2) Why Democracies Need an Unlovable Press.md",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.1 Consider why the First Amendment protects freedom of the press.md",
     "00 - 🕮 Crazy Notes/Components - Introduction.md",
-    "one-one model.png",
-    "many-one model.png",
-    "many-many model.png",
-    "two-level model.png",
-    "data-parallelism.png",
-    "concurrency v parallelism.png",
-    "01 - Classes/CSE 4600 - Operating Systems/Program Counter (PC).md",
     "01 - Classes/CSE 4600 - Operating Systems/Lecture 3.md",
     "02 - Personal Projects/Cyberlab vSphere/Admin Dashboard - vSphere.md",
     "02 - Personal Projects/Cyberlab vSphere/Teacher Assistant Web Interface.md",
@@ -273,14 +282,6 @@
     "02 - Personal Projects/Cyberlab vSphere",
     "02 - Personal Projects",
     "01 - Classes/CSE 4550 - Software Development/Front-End Schematics.md",
-    "00 - 🕮 Crazy Notes/Components - Functional.md",
-    "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
-    "00 - 🕮 Crazy Notes/Tailwind CSS.md",
-    "00 - 🕮 Crazy Notes/React - Introduction.md",
-    "00 - 🕮 Crazy Notes/React - Material UI.md",
-    "00 - 🕮 Crazy Notes/React - Next.md",
-    "00 - 🕮 Crazy Notes/File System.md",
-    "00 - 🕮 Crazy Notes/JSX.md",
     "01 - Classes/CSE 4550 - Software Development",
     "99 - Resources/Zettelkasten.canvas",
     "99 - Resources/Better Note Taking.canvas",
@@ -291,7 +292,6 @@
     "01 - 🕮 Core Knowledge/Cybersecurity/DevOps",
     "01 - Classes/CSE 4550 - Software Engineering",
     "97 - Skill Tracking/Tracker.canvas",
-    "97 - Skill Tracking",
     "01 - Core Knowledge/Cybersecurity/Networking/TCP IP Model.canvas",
     "Untitled.canvas"
   ]
