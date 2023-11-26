@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad8ce7c1d1ec6940",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16fae9603c76d60c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "file": "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "file": "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md"
+                "file": "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md"
               }
             }
           },
@@ -136,7 +161,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md"
+                "file": "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md"
               }
             }
           },
@@ -146,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "file": "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,22 +266,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bed584789e4a8865",
+  "active": "1f277b4b1b3e84f9",
   "lastOpenFiles": [
+    "01 - Classes/CSE 4550 - Software Development/Front-End Schematics.md",
+    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.1 Consider why the First Amendment protects freedom of the press.md",
+    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 1) Foundation of Ethical Jounalism.md",
+    "00 - 🕮 Crazy Notes/UNIX Architecture.md",
+    "00 - 🕮 Crazy Notes/Router.md",
+    "00 - 🕮 Crazy Notes/React - Introduction.md",
+    "00 - 🕮 Crazy Notes/Global Area Network (GAN).md",
     "00 - 🕮 Crazy Notes/Tailwind CSS.md",
-    "00 - 🕮 Crazy Notes/React - Next.md",
+    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 2) Why Democracies Need an Unlovable Press.md",
+    "02 - Personal Projects/Cyberlab vSphere/Admin Dashboard - vSphere.md",
+    "02 - Personal Projects/Cyberlab vSphere/Teacher Assistant Web Interface.md",
+    "02 - Personal Projects/CISO Next/CISO Project Start.md",
+    "00 - 🕮 Crazy Notes/Usr Directory - User Binaries and Read-Only Data.md",
+    "00 - 🕮 Crazy Notes/Wide Area Network (WAN).md",
     "00 - 🕮 Crazy Notes/React - Features.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Race Conditions.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Program Counter (PC).md",
-    "01 - Classes/CSE 4600 - Operating Systems/Lecture 5 (Thread Synchronization).md",
-    "01 - Classes/CSE 4600 - Operating Systems/Starvation.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Mutex Lock.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Semaphores.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Condition Variable.md",
+    "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+    "95 - Images/CISO-next-1.png",
+    "00 - 🕮 Crazy Notes/React - Material UI.md",
+    "95 - Images/CISO-next-1.png.crdownload",
+    "02 - Personal Projects/CISO Next",
+    "00 - 🕮 Crazy Notes/Components - Introduction.md",
+    "00 - 🕮 Crazy Notes/React - Next.md",
+    "00 - 🕮 Crazy Notes/React.md",
+    "00 - 🕮 Crazy Notes/Switch.md",
+    "00 - 🕮 Crazy Notes/Sys Directory - System Hardware Interface.md",
+    "00 - 🕮 Crazy Notes/Tmp Directory - Temporary File Storage.md",
+    "00 - 🕮 Crazy Notes/Ubuntu.md",
+    "00 - 🕮 Crazy Notes/Root Directory.md",
+    "00 - 🕮 Crazy Notes/Proc Directory - Process Information Viewer.md",
     "95 - Images/producer consumer example2.png",
     "95 - Images/producer consumer example.png",
-    "2023-09-11.md",
-    "01 - Classes/CSE 4600 - Operating Systems/POSIX API.md",
     "95 - Images/C Memory Layout.png",
     "99 - Resources/Knowledge Pyramids.png",
     "C Memory Layout.png",
@@ -264,24 +306,9 @@
     "95 - Images/thread-ex1.png",
     "95 - Images/race-condition ex1.png",
     "95 - Images/Process Lifecycle.png",
-    "95 - Images/Process Execution State.png",
     "95 - Images",
-    "README.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.5 Watch a turn-of-the-century.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 1) Foundation of Ethical Jounalism.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Lecture 4 (Process v. Threads).md",
-    "01 - Classes/CSE 4600 - Operating Systems/Untitled.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.3 Consider how popular culture ALSO relates to democracy.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 2) Why Democracies Need an Unlovable Press.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.1 Consider why the First Amendment protects freedom of the press.md",
-    "00 - 🕮 Crazy Notes/Components - Introduction.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Lecture 3.md",
-    "02 - Personal Projects/Cyberlab vSphere/Admin Dashboard - vSphere.md",
-    "02 - Personal Projects/Cyberlab vSphere/Teacher Assistant Web Interface.md",
-    "02 - Personal Projects/Cyberlab vSphere/TA Dashboard - vSphere.md",
     "02 - Personal Projects/Cyberlab vSphere",
     "02 - Personal Projects",
-    "01 - Classes/CSE 4550 - Software Development/Front-End Schematics.md",
     "01 - Classes/CSE 4550 - Software Development",
     "99 - Resources/Zettelkasten.canvas",
     "99 - Resources/Better Note Taking.canvas",
@@ -289,8 +316,6 @@
     "00 - 🕮 Zettelkasten/Front-End",
     "Zettelkasten",
     "98 - Templates",
-    "01 - 🕮 Core Knowledge/Cybersecurity/DevOps",
-    "01 - Classes/CSE 4550 - Software Engineering",
     "97 - Skill Tracking/Tracker.canvas",
     "01 - Core Knowledge/Cybersecurity/Networking/TCP IP Model.canvas",
     "Untitled.canvas"
