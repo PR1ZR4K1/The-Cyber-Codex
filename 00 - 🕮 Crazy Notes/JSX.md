@@ -4,8 +4,7 @@ Tags: [[React]], [[File Types]]
 
 # JSX
 
-JSX (JavaScript XML) allows you to write HTML elements and components using JavaScript.
-
+React introduces JSX, a syntax extension that looks similar to XML or HTML. It is a concise way to write components and describe what the UI should look like. JSX gets compiled to `React.createElement()` calls, which return JavaScript objects representing the described elements.
 
 
 

@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"4575a313cb149fea","type":"text","text":"PID: 57459","x":-120,"y":-420,"width":150,"height":60},
+		{"id":"9cff6cec46aa3cc2","type":"text","text":"Child PID: 57465","x":-300,"y":-290,"width":150,"height":90},
+		{"id":"0dc7ea3de2aa9e9b","type":"text","text":"Grand Child PID: 57467","x":-450,"y":-100,"width":150,"height":120},
+		{"id":"92a7d5c0d02b8b80","type":"text","text":"Child PID: 57467","x":60,"y":-290,"width":150,"height":90}
+	],
+	"edges":[
+		{"id":"7da6866719b844f1","fromNode":"4575a313cb149fea","fromSide":"bottom","toNode":"9cff6cec46aa3cc2","toSide":"right"},
+		{"id":"c9139791cf10c0d6","fromNode":"4575a313cb149fea","fromSide":"bottom","toNode":"92a7d5c0d02b8b80","toSide":"left"},
+		{"id":"bbd8c5723a814295","fromNode":"9cff6cec46aa3cc2","fromSide":"bottom","toNode":"0dc7ea3de2aa9e9b","toSide":"top"}
+	]
+}
