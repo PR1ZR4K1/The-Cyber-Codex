@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0ce756ade8e85c",
+        "id": "b90a8a5e3f3fadbf",
         "type": "tabs",
         "children": [
           {
-            "id": "bed584789e4a8865",
+            "id": "28bb8fe3860a136f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.51103591918945
+    "width": 466.5
   },
   "right": {
     "id": "905929821dd94c22",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md"
+                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md"
+                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "00 - 🕮 Crazy Notes/Dark Mode - Tailwind.md",
+                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,58 +241,63 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bed584789e4a8865",
+  "active": "28bb8fe3860a136f",
   "lastOpenFiles": [
-    "00 - 🕮 Crazy Notes/Tailwind CSS.md",
-    "00 - 🕮 Crazy Notes/React - Next.md",
-    "00 - 🕮 Crazy Notes/React - Features.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Race Conditions.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Program Counter (PC).md",
-    "01 - Classes/CSE 4600 - Operating Systems/Lecture 5 (Thread Synchronization).md",
-    "01 - Classes/CSE 4600 - Operating Systems/Starvation.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Mutex Lock.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Semaphores.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Condition Variable.md",
-    "95 - Images/producer consumer example2.png",
-    "95 - Images/producer consumer example.png",
-    "2023-09-11.md",
-    "01 - Classes/CSE 4600 - Operating Systems/POSIX API.md",
-    "95 - Images/C Memory Layout.png",
-    "99 - Resources/Knowledge Pyramids.png",
-    "C Memory Layout.png",
-    "95 - Images/two-level model.png",
-    "95 - Images/thread-ex1.png",
-    "95 - Images/race-condition ex1.png",
-    "95 - Images/Process Lifecycle.png",
-    "95 - Images/Process Execution State.png",
-    "95 - Images",
-    "README.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Little & Big Endian.md",
+    "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
+    "02 - Personal Projects/DCS-G9",
+    "01 - Classes/CSE 4600 - Operating Systems/Remote Procedure Calls.md",
+    "02 - Personal Projects/Based Mentor Advice/Resume Notes.md",
+    "02 - Personal Projects/Based Mentor Advice/Untitled 1.md",
+    "01 - Classes/MUSIC 1800/Module 7 docs.md",
+    "02 - Personal Projects/Based Mentor Advice",
+    "01 - Classes/MUSIC 1800/Untitled.md",
+    "01 - Classes/MUSIC 1800/Module 6 Docs.md",
+    "02 - Personal Projects/CPTC/guest/101.md",
+    "01 - Classes/MUSIC 1800",
+    "95 - Images/Pasted image 20231111160400.png",
+    "95 - Images/Pasted image 20231111155951.png",
+    "95 - Images/Pasted image 20231111154133.png",
+    "95 - Images/Pasted image 20231111110350.png",
+    "95 - Images/Pasted image 20231111110311.png",
+    "95 - Images/Pasted image 20231111110141.png",
+    "01 - Classes/CSE 4600 - Operating Systems/Process Control Block.md",
+    "02 - Personal Projects/CPTC/guest",
+    "02 - Personal Projects/CPTC",
+    "01 - Classes/CSE 4600 - Operating Systems/Lecture 2.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Course Goals.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Lecture 1.md",
+    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.1 Consider why the First Amendment protects freedom of the press.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Lecture 7 Part 2.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Lecture 8.md",
+    "01 - Classes/COMM 3305 (60) - Digital Media and Society/Podcast - Is Washington Finally Ready to Take On Big Tech?.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Memory Management.md",
+    "95 - Images/Pasted image 20231025110725.png",
+    "95 - Images/Pasted image 20231025110204.png",
+    "95 - Images/Pasted image 20231023114258.png",
+    "95 - Images/Pasted image 20231023112026.png",
+    "98 - Templates/Core Zettel idea.md",
+    "Untitled.canvas",
+    "01 - Classes/CSE 4600 - Operating Systems/Binary Tree.canvas",
+    "01 - Classes/CSE 4600 - Operating Systems/Star Topology.canvas",
+    "01 - Classes/CSE 4600 - Operating Systems/Linear Topology.canvas",
+    "01 - Classes/CSE 4600 - Operating Systems/Lecture 6 Dining Philosophers.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Unconfirmed 843523.crdownload",
+    "94 - Canvases/Wait-For Graph.canvas",
+    "94 - Canvases/Resource Graph Deadlock Cycle.canvas",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.5 Watch a turn-of-the-century.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 1) Foundation of Ethical Jounalism.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Lecture 4 (Process v. Threads).md",
-    "01 - Classes/CSE 4600 - Operating Systems/Untitled.md",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.3 Consider how popular culture ALSO relates to democracy.md",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 2) Why Democracies Need an Unlovable Press.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.1 Consider why the First Amendment protects freedom of the press.md",
-    "00 - 🕮 Crazy Notes/Components - Introduction.md",
+    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 1) Foundation of Ethical Jounalism.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Program Counter (PC).md",
     "01 - Classes/CSE 4600 - Operating Systems/Lecture 3.md",
-    "02 - Personal Projects/Cyberlab vSphere/Admin Dashboard - vSphere.md",
-    "02 - Personal Projects/Cyberlab vSphere/Teacher Assistant Web Interface.md",
-    "02 - Personal Projects/Cyberlab vSphere/TA Dashboard - vSphere.md",
+    "94 - Canvases",
+    "97 - Skill Tracking/Tracker.canvas",
+    "99 - Resources/Better Note Taking.canvas",
+    "95 - Images",
     "02 - Personal Projects/Cyberlab vSphere",
     "02 - Personal Projects",
-    "01 - Classes/CSE 4550 - Software Development/Front-End Schematics.md",
-    "01 - Classes/CSE 4550 - Software Development",
     "99 - Resources/Zettelkasten.canvas",
-    "99 - Resources/Better Note Taking.canvas",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society",
-    "00 - 🕮 Zettelkasten/Front-End",
-    "Zettelkasten",
-    "98 - Templates",
-    "01 - 🕮 Core Knowledge/Cybersecurity/DevOps",
-    "01 - Classes/CSE 4550 - Software Engineering",
-    "97 - Skill Tracking/Tracker.canvas",
-    "01 - Core Knowledge/Cybersecurity/Networking/TCP IP Model.canvas",
-    "Untitled.canvas"
+    "01 - Core Knowledge/Cybersecurity/Networking/TCP IP Model.canvas"
   ]
 }
