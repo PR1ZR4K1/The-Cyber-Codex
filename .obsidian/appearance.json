@@ -4,5 +4,6 @@
   "monospaceFontFamily": "Noto Sans Mono",
   "textFontFamily": "Noto Sans Mono",
   "interfaceFontFamily": "Noto Sans Mono",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "theme": "obsidian"
 }

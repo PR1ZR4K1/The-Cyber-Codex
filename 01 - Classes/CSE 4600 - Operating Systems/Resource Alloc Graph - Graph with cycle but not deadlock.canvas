@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"7356cbab605743cd","x":-147,"y":7,"width":87,"height":65,"type":"text","text":"T1\n"},
+		{"id":"2afc13583dd6d55b","type":"text","text":"T3\n","x":280,"y":-120,"width":87,"height":65},
+		{"id":"327317d43b74f684","type":"text","text":"T4","x":237,"y":240,"width":87,"height":65},
+		{"id":"d7d0124208a8cbaa","x":-60,"y":-214,"width":176,"height":127,"color":"6","type":"text","text":"R1"},
+		{"id":"d15dd3becd77b265","type":"text","text":"T2\n","x":193,"y":-340,"width":87,"height":65},
+		{"id":"d2119bd3af1d8611","type":"text","text":"R2","x":-40,"y":146,"width":176,"height":127,"color":"6"},
+		{"id":"6a1800bcb23b279a","x":-520,"y":-244,"width":250,"height":204,"type":"text","text":"Key:\n\nT = Thread\nR = Resource"},
+		{"id":"e4520fdb4b081869","type":"text","text":"- \n- ","x":3,"y":-191,"width":90,"height":82},
+		{"id":"2429acce6f0248e9","x":26,"y":169,"width":90,"height":82,"type":"text","text":"- \n- "},
+		{"id":"84c757c72c9b54a1","x":-535,"y":-14,"width":315,"height":160,"type":"text","text":"Notes:\nResource Alloc Graph is only good for single instance resource. "}
+	],
+	"edges":[
+		{"id":"6708b5f9c0a82452","fromNode":"7356cbab605743cd","fromSide":"top","toNode":"d7d0124208a8cbaa","toSide":"left"},
+		{"id":"49845c3d53be9e94","fromNode":"d7d0124208a8cbaa","fromSide":"top","toNode":"d15dd3becd77b265","toSide":"left"},
+		{"id":"740629fbab8f2a78","fromNode":"d7d0124208a8cbaa","fromSide":"right","toNode":"2afc13583dd6d55b","toSide":"left"},
+		{"id":"c93acc49863906b4","fromNode":"2afc13583dd6d55b","fromSide":"bottom","toNode":"d2119bd3af1d8611","toSide":"top"},
+		{"id":"7455aaf7f680981f","fromNode":"d2119bd3af1d8611","fromSide":"left","toNode":"7356cbab605743cd","toSide":"bottom"},
+		{"id":"9852611c824cf372","fromNode":"d2119bd3af1d8611","fromSide":"right","toNode":"327317d43b74f684","toSide":"left"}
+	]
+}

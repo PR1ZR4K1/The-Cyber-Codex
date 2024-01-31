@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b90a8a5e3f3fadbf",
+        "id": "dc19335ee58f9258",
         "type": "tabs",
         "children": [
           {
-            "id": "28bb8fe3860a136f",
+            "id": "251b71b68821318a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
+                "file": "01 - Classes/CSE 5120/Textbook Notes/Chapter 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
+                "file": "01 - Classes/CSE 5120/Textbook Notes/Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
+                "file": "01 - Classes/CSE 5120/Textbook Notes/Chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md"
+                "file": "01 - Classes/CSE 5120/Textbook Notes/Chapter 1.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md"
+                "file": "01 - Classes/CSE 5120/Textbook Notes/Chapter 1.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
+                "file": "01 - Classes/CSE 5120/Textbook Notes/Chapter 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -203,7 +203,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -241,10 +243,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "28bb8fe3860a136f",
+  "active": "251b71b68821318a",
   "lastOpenFiles": [
-    "01 - Classes/CSE 4600 - Operating Systems/Little & Big Endian.md",
+    "01 - Classes/CSE 5120/Day Two.md",
+    "01 - Classes/CSE 5120/Textbook Notes/Chapter 1.md",
+    "01 - Classes/CSE 5120/Textbook Notes",
+    "95 - Images/Pasted image 20240129141324.png",
+    "95 - Images/Pasted image 20240129140903.png",
+    "95 - Images/Pasted image 20240129140110.png",
+    "95 - Images/Pasted image 20240129135901.png",
+    "95 - Images/Pasted image 20240129134400.png",
+    "95 - Images/Pasted image 20240129133855.png",
+    "95 - Images/Pasted image 20240129133539.png",
+    "95 - Images/Pasted image 20240129133525.png",
+    "95 - Images/model based reflex agent.png",
+    "95 - Images/Reflex Agent.png",
+    "01 - Classes/CSE 4600 - Operating Systems/Final Review.md",
+    "01 - Classes/CSE 5120",
+    "01 - Classes/CSE 4600 - Operating Systems/Resource Alloc Graph - Graph with cycle but not deadlock.canvas",
+    "01 - Classes/CSE 4600 - Operating Systems/Untitled 1.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Principles of Protection.md",
     "02 - Personal Projects/DCS-G9/Brain Storming Session.md",
+    "01 - Classes/CSE 4600 - Operating Systems/Little & Big Endian.md",
     "02 - Personal Projects/DCS-G9",
     "01 - Classes/CSE 4600 - Operating Systems/Remote Procedure Calls.md",
     "02 - Personal Projects/Based Mentor Advice/Resume Notes.md",
@@ -255,12 +275,6 @@
     "01 - Classes/MUSIC 1800/Module 6 Docs.md",
     "02 - Personal Projects/CPTC/guest/101.md",
     "01 - Classes/MUSIC 1800",
-    "95 - Images/Pasted image 20231111160400.png",
-    "95 - Images/Pasted image 20231111155951.png",
-    "95 - Images/Pasted image 20231111154133.png",
-    "95 - Images/Pasted image 20231111110350.png",
-    "95 - Images/Pasted image 20231111110311.png",
-    "95 - Images/Pasted image 20231111110141.png",
     "01 - Classes/CSE 4600 - Operating Systems/Process Control Block.md",
     "02 - Personal Projects/CPTC/guest",
     "02 - Personal Projects/CPTC",
@@ -272,10 +286,6 @@
     "01 - Classes/CSE 4600 - Operating Systems/Lecture 8.md",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/Podcast - Is Washington Finally Ready to Take On Big Tech?.md",
     "01 - Classes/CSE 4600 - Operating Systems/Memory Management.md",
-    "95 - Images/Pasted image 20231025110725.png",
-    "95 - Images/Pasted image 20231025110204.png",
-    "95 - Images/Pasted image 20231023114258.png",
-    "95 - Images/Pasted image 20231023112026.png",
     "98 - Templates/Core Zettel idea.md",
     "Untitled.canvas",
     "01 - Classes/CSE 4600 - Operating Systems/Binary Tree.canvas",
@@ -286,18 +296,10 @@
     "94 - Canvases/Wait-For Graph.canvas",
     "94 - Canvases/Resource Graph Deadlock Cycle.canvas",
     "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.5 Watch a turn-of-the-century.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.3 Consider how popular culture ALSO relates to democracy.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 2) Why Democracies Need an Unlovable Press.md",
-    "01 - Classes/COMM 3305 (60) - Digital Media and Society/M2.2 (Part 1) Foundation of Ethical Jounalism.md",
-    "01 - Classes/CSE 4600 - Operating Systems/Program Counter (PC).md",
-    "01 - Classes/CSE 4600 - Operating Systems/Lecture 3.md",
     "94 - Canvases",
     "97 - Skill Tracking/Tracker.canvas",
     "99 - Resources/Better Note Taking.canvas",
     "95 - Images",
-    "02 - Personal Projects/Cyberlab vSphere",
-    "02 - Personal Projects",
-    "99 - Resources/Zettelkasten.canvas",
-    "01 - Core Knowledge/Cybersecurity/Networking/TCP IP Model.canvas"
+    "99 - Resources/Zettelkasten.canvas"
   ]
 }
