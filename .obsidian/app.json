@@ -2,5 +2,12 @@
   "promptDelete": true,
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "95 - Images"
+  "attachmentFolderPath": "95 - Images",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
