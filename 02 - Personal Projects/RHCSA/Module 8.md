@@ -46,6 +46,10 @@ Through the *fork* routine, a child process inherits security identities, previo
 | Zombie | *Z* | **EXIT_ZOMBIE**: A child process signals to its parent as it exits. All resources except for the process identity (PID) are released. |
 |  | *X* | **EXIT_DEAD**: When the parent cleans up the remaining child process structure, the process is now released completely. This state cannot be observed in process-listing utilities. |
 
+## Describe Load Average
+
+*Load Average* is a measurement that the Linux kernel provides to represent the perceived system load for a period of time. It can be used as a rough gauge of how many system resource requests are pending, to determine whether system load increases or decreases.
+
 
 
 
