@@ -4,7 +4,7 @@ Tags:
 
 # Constraint Satisfaction
 
-### Standard vs. Constraint Satisfaction Problems
+### Standard vs. Constraint Satisfaction Problems (CSP)
 
 - Standard search problem:
 	- state is a "black box": arbitrary data structure

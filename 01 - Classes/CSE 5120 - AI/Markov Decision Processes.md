@@ -1,6 +1,6 @@
 2024/02/14 13:06
 Status: #idea
-Tags:
+Tags: [[Constraint Satisfaction]]
 
 # Non-Deterministic Search
 
@@ -116,6 +116,9 @@ $$
 $$
 - The alternative form of the value function using the transition probability and reward function $$V^*(s) = \max_a \sum_{s'} T(s, a, s') [R(s, a, s') + \gamma V^*(s')]
 $$
+- In English, basically we have a tuple: $(s, a, R(), T, \gamma)$
+- (state, action, reward function, Transition matrix, and gamma)
+
 # Optimal Policies
 
 An optimal plan or sequence of actions, from start to a goal
@@ -125,9 +128,19 @@ An optimal plan or sequence of actions, from start to a goal
 - A policy ($\pi$) gives an action for each state
 - An optimal policy is one that maximizes expected utility if followed
 - An explicit policy defines a reflex agent
-
+- When a policy is applied you no longer have to calculate the max over a set of actions to get s so the time complexity is O($s^2$) instead of O($s^2$a)
 
 # Expected Utility 
+
+## Fixed Policy
+
+$$V^{\pi}(s) = \sum_{s'} T(s, \pi(s), s') \left[ R(s, \pi(s), s') + \gamma V^{\pi}(s') \right]
+$$
+argmax gets the associated action from the highest value in an array
+
+### Policy Extraction
+
+Uses the same equation that would get you the all of the action values for a particular state and then you would grab the index of the highest value out of the actions which is basically the direction in our example
 
 ## Bellman Equation
 
