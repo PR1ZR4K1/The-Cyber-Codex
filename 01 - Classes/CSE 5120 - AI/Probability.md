@@ -106,8 +106,43 @@ The P column is referred to as the *outcome*
 
 $$P(E)= \sum_{(x_{1\ldots}x_{n)}\ \in\ E} P(x_{1}\ldots x_n)$$
 
+## Chain Rule 
 
+Chain rule says that we can always write the joint distribution as an incremental product of conditional distributions
 
+$$ P(x_1, x_2, x_3) = P(x_1)P(x_2|x_1)P(x_3|x_1, x_2)$$
+$$P(x_1, x_2, \ldots, x_n) = \prod_{i} P(x_i|x_1, \ldots, x_{i-1})$$
+## Bayes' Rule
+
+Two ways to factor a joint distribution over two variables:
+
+	P(x,y) = P(x|y)P(y) = P(y|x)P(x)
+
+Dividing we get:
+
+	$P(x|y) = \frac{P(y|x)}{P(y)}P(x)$
+
+This is helpful because sometimes one conditional is tricky but the other one is simple.
+
+**VERY IMPORTANT**
+
+It is the foundation of many systems eg. Automatic Speech Recognition, Machine Translation
+
+![[Pasted image 20240311132428.png]]
+
+### Exercise: Baye's Rule
+
+Given P(w):
+![[Pasted image 20240311132515.png]]
+
+Given P(D|W)
+![[Pasted image 20240311132533.png]]
+
+What is P(W|dry)?
+
+## Global Semantics
+
+$$P(d \wedge t \wedge a \wedge \neg b \wedge \neg e)$$
 
 
 
