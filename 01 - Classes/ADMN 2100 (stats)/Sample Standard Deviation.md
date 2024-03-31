@@ -1,13 +1,13 @@
 2024/03/29 15:16
 Status: #idea
-Tags: [[Module 10 t-tests]]
+Tags: [[Lesson 24 - t-tests]]
 
-# Sample Standard Distribution
+# Sample Standard Deviation
 
 Is the square root of the sum of each value - the sample mean squared and divided by n-1
 
 
-$$S=\sqrt{\frac{\sum\limits(x_i-\bar{x})^2}{n-1}}$$
+$$s=\sqrt{\frac{\sum\limits(x_i-\bar{x})^2}{n-1}}$$
 
 ## Degrees of Freedom
 

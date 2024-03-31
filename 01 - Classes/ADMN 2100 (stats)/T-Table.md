@@ -1,6 +1,6 @@
 2024/03/29 15:31
 Status: #idea
-Tags: [[Sample Standard Distribution]], [[Module 10 t-tests]]
+Tags: [[Sample Standard Deviation]], [[Lesson 24 - t-tests]]
 
 # T-Table
 

@@ -2,7 +2,7 @@
 Status: #idea
 Tags: 
 
-# Module 10 t-tests
+# Lesson 24 t-tests
 
 T-tests are a type of statistical test used to determine if there is a significant difference between the means of two groups, which may be related in certain features. It's widely used in scenarios where the sample sizes are small and the population variance is unknown. Here are the main types of t-tests:
 
@@ -16,3 +16,5 @@ T-tests are a type of statistical test used to determine if there is a significa
 
 ---
 # References
+
+- [[Null and Alternative Hypothesis]]
