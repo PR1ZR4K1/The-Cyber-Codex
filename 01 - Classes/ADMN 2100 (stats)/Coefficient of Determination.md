@@ -12,11 +12,12 @@ Tags: [[Lesson 24 - t-tests]]
 ### Calculation
 - **Formula**:
 $$
-R^2 = 1 - \frac{SS_{res}}{SS_{tot}}
+R^2 = \frac{t^2}{t^{2}+df}
 $$
 where:
-- \( SS_{res} \) is the sum of squares of residuals, which measures the variability left unexplained after performing the regression.
-- \( SS_{tot} \) is the total sum of squares, which measures the total variance in the dependent variable.
+- $( t^2 )$ is the sum of squares of residuals, which measures the variability left unexplained after performing the regression. In this case t represents $t_{statistic}$
+- $( t^{2} + df )$ is the total sum of squares, which measures the total variance in the dependent variable.
+- $(df)$ is the degrees of freedom
 
 ### Interpretation
 - \( R^2 \) values range from 0 to 1.
