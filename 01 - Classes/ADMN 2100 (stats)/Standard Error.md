@@ -70,3 +70,5 @@ $$
 
 ---
 # References
+
+- [[Independent Samples Standard Error]]
