@@ -23,3 +23,5 @@ As the number of degrees of freedom increases the t distribution begins to look 
 
 ---
 # References
+
+- [[Degrees of Freedom]]
