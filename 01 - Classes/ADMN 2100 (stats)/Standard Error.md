@@ -71,4 +71,5 @@ $$
 ---
 # References
 
+- [[Sample Standard Deviation]]
 - [[Independent Samples Standard Error]]
