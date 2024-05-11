@@ -1,4 +1,4 @@
-2024/02/26 13:09
+m2024/02/26 13:09
 Status: #idea
 Tags: [[Markov Decision Processes]]
 
@@ -101,9 +101,9 @@ Idea: Average together observed sample values
 - Update V(s) each time we experience a transition (s, a, s', r)
 - Likely outcomes s' will contribute updates more often
 
-Temporal Difference larning of values
+Temporal Difference learning of values
 
-- Policy still fixed, still doing evalutaion!
+- Policy still fixed, still doing evaluation!
 - Move values toward value of whatever successor occurs: running average
 
 $$Sample\ of\ V(s): sample=R(s,\pi(s),s') + \gamma{V}^\pi(s')$$

@@ -39,7 +39,6 @@ Fully connected layers are usually placed at the end of CNN architectures and ar
 
 - **Mathematical Representation of a Fully Connected Layer**:
     
-    latexCopy code
     
     `y = f(Wx + b)`
     
