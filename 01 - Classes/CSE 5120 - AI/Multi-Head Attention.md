@@ -1,6 +1,6 @@
 2024/04/24 13:48
 Status: #idea
-Tags: [[Transformers]], [[Natural Language Processing]]
+Tags: [[01 - Classes/CSE 5120 - AI/Transformers]], [[Natural Language Processing]]
 
 ## Multi-Head Attention Overview
 
