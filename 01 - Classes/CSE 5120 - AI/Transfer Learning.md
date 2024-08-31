@@ -1,6 +1,6 @@
 2024/04/15 13:51
 Status: #idea
-Tags:[[Convolutional Neural Networks]]
+Tags: [[Convolutional Neural Networks]]
 
 ## Transfer Learning Overview
 
