@@ -1,6 +1,6 @@
 2024/08/29 13:25
 Status: #idea
-Tags: [[IP Addresses]]
+Tags: [[IP Classes]]
 
 # IP Address Classes
 
