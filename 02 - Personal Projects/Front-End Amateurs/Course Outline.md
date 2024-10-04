@@ -32,17 +32,17 @@ Tags:
 - Introduction to React: components, JSX
 - Creating a simple React app
 
-## Week 3: React Hooks and Component Lifecycle
-
-- useState and useEffect hooks
-- Other common hooks (useContext, useReducer)
-- Component lifecycle in functional components
-
-## Week 4: HTML and Tailwind CSS Basics
+## Week 3: HTML and Tailwind CSS Basics
 
 - HTML5 structure and semantic elements
 - Tailwind CSS philosophy and utility classes
 - Responsive design with Tailwind
+
+## Week 4: React Hooks and Component Lifecycle
+
+- useState and useEffect hooks
+- Other common hooks (useContext, useReducer)
+- Component lifecycle in functional components
 
 ## Week 5: Advanced Tailwind and Starting the Portfolio
 
