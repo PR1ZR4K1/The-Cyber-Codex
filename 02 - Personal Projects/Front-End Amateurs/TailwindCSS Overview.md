@@ -16,12 +16,12 @@ Tailwind CSS is a highly customizable, low-level CSS framework that provides a s
 4. Dark mode
 5. Pseudo-class variants
 
-## Common Utility Classes
+## Common Utility Classes1
 
 ### Layout
 
 - Container: `container`
-- Display: `block`, `inline-block`, `flex`, `grid`
+- Display: `block`, `inline-block`, `flex`, `grid`, `hidden`
 - Flexbox: `flex-row`, `flex-col`, `justify-center`, `items-center`
 - Grid: `grid-cols-3`, `gap-4`
 
@@ -32,14 +32,14 @@ Tailwind CSS is a highly customizable, low-level CSS framework that provides a s
 
 ### Sizing
 
-- Width: `w-full`, `w-1/2`, `w-64`
+- Width: `w-screen`, `w-1/2`, `w-64`
 - Height: `h-screen`, `h-64`
 
 ### Typography
 
 - Font Size: `text-sm`, `text-lg`, `text-2xl`
-- Font Weight: `font-normal`, `font-bold`
-- Text Color: `text-blue-500`, `text-gray-700`
+- Font Weight: `font-normal`, `font-bold`, `italic`
+- Text Color: `text-blue-900`, `text-gray-700`
 
 ### Backgrounds
 
@@ -64,7 +64,7 @@ Tailwind uses breakpoint prefixes for responsive design:
 - `md:` (768px)
 - `lg:` (1024px)
 - `xl:` (1280px)
-- `2xl:` (1536px)
+- `2xl:` (1920px)
 
 Example: `class="w-full md:w-1/2 lg:w-1/3"`
 
