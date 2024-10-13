@@ -21,7 +21,7 @@ logging synchronous
 exit  
 ip domain-name ist4210-Lab.com 
 banner motd #unauthorized access is prohibited#  
-username admin privilege 15 secret sshadmin  
+username admin privilege 15 secret sshadmin21
 line vty 0 15  
 transport input ssh  
 login local  
@@ -39,47 +39,59 @@ name Guest
 vlan 99 
 name NTAdmin 
 exit  
-crypto key generate rsa general-keys modulus 1024  
-interface range gi0/1  
+crypto key generate rsa general-keys  modulus 1024  
+interface range fa1/0/48  
 switchport mode trunk  
 switchport trunk native vlan 5  
 switchport trunk allowed vlan 5,10,20,30,40,50,99  
 no shutdown  
-interface range f0/1-6  
+interface range f1/0/1-6
+no shut
 switchport mode access  
 switchport access vlan 10
-interface range fa0/7-11
+interface range fa1/0/7-11
+no shut
 switchport mode access  
 switchport access vlan 20  
-interface range fa0/12-15
+interface range fa1/0/12-15
+no shut
 switchport mode access  
 switchport access vlan 30  
-interface range fa0/16-17
+interface range fa1/0/16-17
+no shut
 switchport mode access  
 switchport access vlan 40
-interface fa0/18
+interface range fa1/0/19-22
+no shut
 switchport mode access  
 switchport access vlan 99
-interface fa0/19  
+interface fa1/0/18  
+no shut
 switchport mode access  
 switchport access vlan 50  
 exit  
 interface vlan 10  
+no shut
 description Vlan for Finance department
 ip address 10.20.10.2 255.255.255.192  
-interface vlan 20  
+interface vlan 20
+no shut
 description Vlan for Sales department  
 ip address 10.20.10.66 255.255.255.192  
-interface vlan 30  
+interface vlan 30
+no shut
 description Vlan for HR department  
 ip address 10.20.10.130 255.255.255.192  
-interface vlan 40  
+interface vlan 40
+no shut
 description Vlan for Management department  
 ip address 10.20.10.194 255.255.255.224
-interface vlan 50  
+interface vlan 50
+no shut
 description Vlan for Guests  
 ip address 10.20.10.242 255.255.255.248
-interface vlan 99  
+interface vlan 99
+no shut
 description Vlan for NTAdmin department  
 ip address 10.20.10.226 255.255.255.240  
 end  
