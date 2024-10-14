@@ -2,7 +2,7 @@
 Status: #idea
 Tags:
 
-# Bill Herbert Cheat Sheet
+# Packet Tracer Cheat Sheet
 
 configure terminal  
 hostname SWFloor1  
@@ -21,7 +21,7 @@ logging synchronous
 exit  
 ip domain-name ist4210-Lab.com 
 banner motd #unauthorized access is prohibited#  
-username admin privilege 15 secret sshadmin21
+username admin privilege 15 secret sshadmin
 line vty 0 15  
 transport input ssh  
 login local  
@@ -40,35 +40,35 @@ vlan 99
 name NTAdmin 
 exit  
 crypto key generate rsa general-keys  modulus 1024  
-interface range fa1/0/48  
+interface range gi0/1  
 switchport mode trunk  
 switchport trunk native vlan 5  
 switchport trunk allowed vlan 5,10,20,30,40,50,99  
 no shutdown  
-interface range f1/0/1-6
+interface range f0/1-6
 no shut
 switchport mode access  
 switchport access vlan 10
-interface range fa1/0/7-11
+interface range fa0/7-11
 no shut
 switchport mode access  
 switchport access vlan 20  
-interface range fa1/0/12-15
+interface range fa0/12-15
 no shut
 switchport mode access  
 switchport access vlan 30  
-interface range fa1/0/16-17
+interface range fa0/16-17
 no shut
 switchport mode access  
 switchport access vlan 40
-interface range fa1/0/19-22
+interface fa0/19
 no shut
 switchport mode access  
-switchport access vlan 99
-interface fa1/0/18  
+switchport access vlan 50
+interface fa0/18  
 no shut
 switchport mode access  
-switchport access vlan 50  
+switchport access vlan 99  
 exit  
 interface vlan 10  
 no shut
@@ -93,9 +93,28 @@ ip address 10.20.10.242 255.255.255.248
 interface vlan 99
 no shut
 description Vlan for NTAdmin department  
-ip address 10.20.10.226 255.255.255.240  
+ip address 10.20.10.226 255.255.255.240
+
+service dhcp
+ip dhcp excluded-address 10.20.10.1 10.20.10.5
+ip dhcp excluded-address 10.20.10.65 10.20.10.70
+ip dhcp excluded-address 10.20.10.129 10.20.10.134
+ip dhcp excluded-address 10.20.10.192 10.20.10.197
+ip dhcp pool Finance-VLAN10
+network 10.20.10.0 255.255.255.192
+default-router 10.20.10.1
+ip dhcp pool Sales-VLAN20
+network 10.20.10.64 255.255.255.192
+default-router 10.20.10.65
+ip dhcp pool HR-VLAN30
+network 10.20.10.128 255.255.255.192
+default-router 10.20.10.129
+ip dhcp pool Managemnet-VLAN40
+network 10.20.10.191 255.255.255.224
+default-router 10.20.10.192
 end  
 copy run start
+
 
 
 
@@ -104,4 +123,4 @@ copy run start
 ---
 # References
 
-- [[Packet Tracer Cheat Sheet]]
+- [[Bill Herbert Cheat Sheet]]
