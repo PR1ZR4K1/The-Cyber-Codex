@@ -23,20 +23,20 @@ When you are configuring a static route, the next hop can be provided using an I
 
 The following commands can be used to configure a static route on a network:
 
-|Command|Description|
-|---|---|
-|Router(config)# **ip route** **_network-address subnet-mask { ip-address \| exit-intf [ip-address]} [distance]_**|Configures a static route on an IPv4 network. Note that the administrative distance defaults to 1 if not specified.|
-|Router(config)# **ip route** **_network-address subnet-mask { ip-address \| exit-intf [ip-address]} [distance]_**|Configures a static route on an IPv6 network. Note that the administrative distance defaults to 1 if not specified.|
+| Command                                                                                                           | Description                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Router(config)# **ip route** **_network-address subnet-mask { ip-address \| exit-intf [ip-address]} [distance]_** | Configures a static route on an IPv4 network. Note that the administrative distance defaults to 1 if not specified. |
+| Router(config)# **ip route** **_network-address subnet-mask { ip-address \| exit-intf [ip-address]} [distance]_** | Configures a static route on an IPv6 network. Note that the administrative distance defaults to 1 if not specified. |
 
 ## Configure IP Default Static Routes
 
 The command for an IPv4 default static route is similar to other static routes, except that you use the network address 0.0.0.0 and the subnet mask 0.0.0.0. This way, the route will match any destination address. Because of this format, default static routes are frequently referred to as quad-zero routes.
 
-|Command|Description|
-|---|---|
-|Router(config)# **ip route 0.0.0.0 0.0.0.0 _{ip-address \| exit-intf}_**|Configures a default static route on an IPv4 network.|
-|Router(config)# **ipv6 route ::/0 _{ipv6-address \| exit-intf}_**|Configures a default static route on an IPv6 network.|
-|Router# **show ip route static**|Shows the static routes listed in the routing table.|
+| Command                                                                  | Description                                           |
+| ------------------------------------------------------------------------ | ----------------------------------------------------- |
+| Router(config)# **ip route 0.0.0.0 0.0.0.0 _{ip-address \| exit-intf}_** | Configures a default static route on an IPv4 network. |
+| Router(config)# **ipv6 route ::/0 _{ipv6-address \| exit-intf}_**        | Configures a default static route on an IPv6 network. |
+| Router# **show ip route static**                                         | Shows the static routes listed in the routing table.  |
 
 ## Configure Floating Static Routes
 
