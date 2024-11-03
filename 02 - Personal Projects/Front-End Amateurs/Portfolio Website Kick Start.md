@@ -107,6 +107,7 @@ Tags:
 	- Yea it's the shit don't copy it, but by all means use it for reference. I will make my repo available for you mfs <3 just hmu and give me your github username or email.
 	- https://www.youtube.com/watch?v=qp0-L_M3Ad4
 	- Here's the video I used. Yea there are a lot of similarities, but I definitely made it my own which is what matters :). 
+
 - **Youtube**
 
 	*In no particular order. Keep in mind the time of upload for these tutorials because next continuously gets updated. If you run into an issue with versioning it will be a pain in the ass, but remember someone else has definitely ran into your issue before so just do some research.*
@@ -129,6 +130,9 @@ Tags:
 - **Primeagen**
 	- https://www.youtube.com/@ThePrimeagen
 	- Not even really a web dev focused dude, but in terms of programming this guy is the shit and you will learn a lot from his short autistic videos
+- **Sonny Sangha**
+	- https://www.youtube.com/@SonnySangha
+	- Dude uploads super long website building tutorials. I found it interesting to see his thought process while developing and shit.
 - **Theo**
 	- https://www.youtube.com/@t3dotgg
 	- Always fuckin with new technologies in web dev and provides tons of explanations for various things
@@ -138,9 +142,7 @@ Tags:
 - **Leerob**
 	- https://www.youtube.com/@leerob
 	- Literally a vercel dev. Not many videos, but each video covers some new feature they've added into Nextjs. How to work and how to use them.
-- **Sonny Sangha**
-	- https://www.youtube.com/@SonnySangha
-	- Dude uploads super long website building tutorials. I found it interesting to see his thought process while developing and shit.
+
 
 
 ---
