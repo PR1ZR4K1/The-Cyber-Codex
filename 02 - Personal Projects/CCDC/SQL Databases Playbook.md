@@ -8,45 +8,119 @@ Tags:
 
 ## II. MySQL/MariaDB
 
-### A. Installation and Configuration
+### A. Client Installation
 
-1. Secure installation:
-   ```bash
-   mysql_secure_installation
-   ```
+1. Linux (try your package manag er and search for this)
 
-2. Configure my.cnf:
+*mysql-server*
 
-```ini
-[mysqld]
-bind-address = 127.0.0.1
-local-infile = 0
+Example:
+```
+sudo apt install mysql-server
 ```
 
-### B. User Management
+2. Linux/Windows (Link)
+```
+http://dev.mysql.com/downloads/shell/
+```
 
-1. Create user with limited privileges:
+### B. Config/Log File Locations
+
+**Generally stored here:**
+
+*Linux*
+```bash
+/etc/mysql/my.cnf
+/var/lib/mysql
+```
+
+*Windows*
+```
+- Default system-wide installation under `C:\ProgramData\MySQL\MySQL Router` : `C:\ProgramData\MySQL\MySQL Router\mysqlrouter.conf`
+    
+- In addition: ``C:\Users\_`username`_\AppData\Roaming\mysqlrouter.conf`` where _`username`_ is replaced with your system's user.
+    
+- In addition to _mysqlrouter.conf_, for backwards compatibility the system also looks for _mysqlrouter.ini_
+```
+### C. Connecting to Server
+
+1. MySQL
+
+```bash
+mysql -h host -u user -p
+```
+
+2. MariaDB
+
+```bash
+mariadb -u root -p -h localhost
+```
+
+*Where -u specifies user, -p specifies you will input a  password, and -h specifies the hostname or ip*
+
+### D. User Security
+
+**Make sure every user has a password enabled and that they cannot be accessed without a password**
+
+#### Create and Alter Users
+
 ```sql
-CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
-GRANT SELECT, INSERT, UPDATE ON database_name.* TO 'username'@'localhost';
+CREATE USER 'bobby'@'localhost' IDENTIFIED BY '_password_';
+
+ALTER USER 'bobby'@'localhost' IDENTIFIED BY '_password_';
 ```
 
-2. Remove anonymous users:
+#### Delete Users
+
 ```sql
-DELETE FROM mysql.user WHERE User='';
+DROP USER 'bobby'@'localhost';
+```
+### E. Data Encryption
+
+**Prior to MySQL 8.0.16, data-at-rest is not encrypted!**
+
+Gotta test out what the defaults look like for both types databases.
+
+1. MySQL
+```
+Table encryption 
+https://dev.mysql.com/doc/refman/8.0/en/innodb-data-encryption.html#innodb-data-encryption-enabling-disabling
+
+global encryption
+https://dev.mysql.com/doc/refman/8.0/en/innodb-data-encryption.html#innodb-schema-tablespace-encryption-default
+```
+2. MariaDB
+```
+file location for encryption variable definitions
+https://mariadb.com/kb/en/aria-encryption-overview/
+
+encryption plugin, key encryption and generation
+https://mariadb.com/kb/en/file-key-management-encryption-plugin/
 ```
 
-### C. Data Encryption
+### F. Active Connections
 
-1. Enable SSL:
+**Tracking active connections can help us to potentially identify unknown users that may be malicious.**
+
 ```sql
-ALTER USER 'username'@'localhost' REQUIRE SSL;
+SHOW PROCESSLIST;
 ```
 
-2. Implement at-rest encryption:
+*This command provides a list of active connections, including the user, host, database, and command being executed. You can use this command to monitor the current load on your MySQL server.*
+
 ```sql
-ALTER TABLE table_name ENCRYPTION='Y';
+SHOW STATUS LIKE 'Threads_connected';
 ```
+
+*This will display a single row with the value of `Threads_connected` which indicates the number of currently open connections.*
+
+```bash
+mysqladmin -u root -p -i 5 extended-status | grep "Threads_connected"
+
+mariadb-admin --extended-status | grep threads_connected
+```
+
+*One liner to view the number of active connections in real time every 5 seconds*
 
 ## III. PostgreSQL
 
