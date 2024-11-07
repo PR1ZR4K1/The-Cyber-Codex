@@ -76,10 +76,137 @@ ALTER USER 'bobby'@'localhost' IDENTIFIED BY '_password_';
 DROP USER 'bobby'@'localhost';
 ```
 ### E. Data Encryption
-
 **Prior to MySQL 8.0.16, data-at-rest is not encrypted!**
 
-Gotta test out what the defaults look like for both types databases.
+1. MySQL
+#### Table-Level Encryption
+```sql
+-- Enable encryption for a specific table
+CREATE TABLE encrypted_table (
+    id INT PRIMARY KEY,
+    data VARCHAR(100)
+) ENCRYPTION='Y';
+
+-- Alter existing table to enable encryption
+ALTER TABLE existing_table ENCRYPTION='Y';
+
+-- Check encryption status
+SELECT TABLE_SCHEMA, TABLE_NAME, CREATE_OPTIONS 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE CREATE_OPTIONS LIKE '%ENCRYPTION%';
+```
+
+#### Global Encryption Settings
+```sql
+-- Set default encryption for all new tables
+SET GLOBAL table_encryption_privilege_check=ON;
+SET GLOBAL default_table_encryption=ON;
+
+-- Configure keyring (required for encryption)
+-- In my.cnf:
+[mysqld]
+early-plugin-load="keyring_file.so"
+keyring_file_data="/var/lib/mysql-keyring/keyring"
+
+-- Verify keyring status
+SHOW PLUGINS WHERE Name LIKE 'keyring%';
+```
+
+#### Master Key Rotation
+```sql
+-- Rotate master key
+ALTER INSTANCE ROTATE INNODB MASTER KEY;
+```
+
+2. MariaDB
+#### File Key Management
+```sql
+-- Enable encryption plugin in my.cnf/server.cnf
+[mysqld]
+plugin_load_add = file_key_management
+file_key_management_filename = /etc/mysql/encryption/keyfile
+file_key_management_filekey = FILE:/etc/mysql/encryption/keyfile.key
+
+-- Create encryption keys file (keyfile)
+1;PATH_TO_KEY_1
+2;PATH_TO_KEY_2
+```
+
+#### Table Encryption
+```sql
+-- Create encrypted table
+CREATE TABLE encrypted_table (
+    id INT PRIMARY KEY,
+    data VARCHAR(100)
+) ENCRYPTED=YES ENCRYPTION_KEY_ID=1;
+
+-- Alter existing table
+ALTER TABLE existing_table ENCRYPTED=YES ENCRYPTION_KEY_ID=1;
+
+-- Check encryption status
+SELECT TABLE_SCHEMA, TABLE_NAME, ENCRYPTION 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE ENCRYPTION='YES';
+```
+
+#### System-Wide Encryption
+```sql
+-- In my.cnf/server.cnf
+[mysqld]
+encrypt_binlog=1
+encrypt_tmp_files=1
+aria_encrypt_tables=1
+encrypt_tmp_disk_tables=1
+encrypt_tables=1
+
+-- Verify encryption settings
+SHOW VARIABLES LIKE '%encrypt%';
+```
+
+#### Key Rotation
+```sql
+-- Generate new encryption key
+FILE_KEY_MANAGEMENT_GENERATE_KEY=1;
+
+-- Rotate keys for specific table
+ALTER TABLE table_name ENCRYPTION_KEY_ID=2;
+```
+
+#### Encryption Status and Monitoring
+```sql
+-- Check encryption status
+SELECT * FROM information_schema.INNODB_TABLESPACES_ENCRYPTION;
+
+-- Monitor encryption progress
+SELECT * FROM information_schema.INNODB_ENCRYPTION_STATUS;
+```
+
+#### Backup Encryption
+```sql
+-- Enable encrypted backups
+-- For mysqldump:
+mysqldump --encrypt-protocol --ssl-ca=/path/to/ca.pem \
+          --ssl-cert=/path/to/client-cert.pem \
+          --ssl-key=/path/to/client-key.pem \
+          -u username -p database > backup.sql
+
+-- For Mariabackup:
+mariabackup --encrypt=AES256 \
+            --encrypt-key='encryption_key' \
+            --backup \
+            --target-dir=/backup/path
+```
+
+**Important Security Notes:**
+1. Always store encryption keys separately from data
+2. Implement key rotation policies
+3. Backup encryption keys securely
+4. Monitor encryption status regularly
+5. Use SSL/TLS for data-in-transit encryption
+6. Consider implementing disk-level encryption as additional security layer
+
+This implementation provides comprehensive encryption at rest for both MySQL and MariaDB, covering table-level, system-wide, and backup encryption options.
+#### References 
 
 1. MySQL
 ```
@@ -124,41 +251,104 @@ mariadb-admin --extended-status | grep threads_connected
 
 ## III. PostgreSQL
 
-### A. Installation and Configuration
-
-1. Modify pg_hba.conf:
-```
-host    all    all    127.0.0.1/32    md5
-```
-
-2. Set password encryption in postgresql.conf:
-```
-password_encryption = scram-sha-256
+### A. Client Installation
+1. Linux (via package manager)
+*postgresql*
+Example:
+```bash
+sudo apt install postgresql postgresql-contrib
 ```
 
-### B. User Management
+2. Linux/Windows (Official Download)
+```
+https://www.postgresql.org/download/
+```
 
-1. Create role with limited privileges:
+### B. Config/Log File Locations
+**Generally stored here:**
+*Linux*
+```bash
+/etc/postgresql/[version]/main/postgresql.conf    # Main configuration file
+/var/lib/postgresql/[version]/main/              # Data directory
+/var/log/postgresql/                             # Log files
+```
+*Windows*
+```
+C:\Program Files\PostgreSQL\[version]\data\postgresql.conf    # Main configuration file
+C:\Program Files\PostgreSQL\[version]\data\                  # Data directory
+```
+
+### C. Connecting to Server
+```bash
+psql -h host -U username -d database
+```
+*Where -h specifies host, -U specifies user, and -d specifies database name. You'll be prompted for password.*
+
+### D. User Security
+**Ensure proper user authentication and access control**
+#### Create and Alter Users
 ```sql
-CREATE ROLE username WITH LOGIN PASSWORD 'password';
-GRANT SELECT, INSERT, UPDATE ON ALL TABLES IN SCHEMA public TO username;
+CREATE USER bobby WITH PASSWORD 'password';
+ALTER USER bobby WITH PASSWORD 'new_password';
 ```
 
-2. Implement role-based access control:
+#### Delete Users
 ```sql
-CREATE ROLE readonly;
-GRANT SELECT ON ALL TABLES IN SCHEMA public TO readonly;
-GRANT readonly TO username;
+DROP USER bobby;
 ```
 
-### C. Data Encryption
+### E. Data Encryption
+**PostgreSQL provides several layers of encryption:**
 
-1. Use pgcrypto for column-level encryption:
+1. Connection Encryption (SSL/TLS)
 ```sql
+-- Check SSL status
+SHOW ssl;
+
+-- Configure in postgresql.conf:
+ssl = on
+ssl_cert_file = 'server.crt'
+ssl_key_file = 'server.key'
+```
+
+2. Data-at-rest Encryption
+```
+# File system level encryption options:
+1. Full disk encryption
+2. pgcrypto extension for column-level encryption:
+```
+```sql
+-- Enable pgcrypto extension
 CREATE EXTENSION pgcrypto;
-UPDATE users SET password = crypt('newpassword', gen_salt('bf'));
+
+-- Example of encrypting data
+INSERT INTO table_name (encrypted_column) 
+VALUES (pgp_sym_encrypt('secret data', 'encryption_key'));
 ```
 
+### F. Active Connections
+**Monitor active connections for security:**
+
+```sql
+-- View all active connections
+SELECT * FROM pg_stat_activity;
+
+-- Count of active connections
+SELECT count(*) FROM pg_stat_activity WHERE state = 'active';
+
+-- View connected users and their activity
+SELECT usename, client_addr, client_port, 
+       state, query_start, query 
+FROM pg_stat_activity;
+
+-- Kill a specific connection
+SELECT pg_terminate_backend(pid);
+```
+
+One-liner to monitor connections in real-time:
+```bash
+watch -n 5 "psql -U postgres -c 'SELECT count(*) FROM pg_stat_activity;'"
+```
 ## IV. Microsoft SQL Server
 
 ### A. Installation and Configuration
