@@ -112,21 +112,27 @@ ip dhcp excluded-address 10.10.10.241 10.10.10.243
 ip dhcp pool Finance-VLAN10
 network 10.10.10.0 255.255.255.192
 default-router 10.10.10.1
+dns-server 10.10.10.2
 ip dhcp pool Sales-VLAN20
 network 10.10.10.64 255.255.255.192
 default-router 10.10.65.65
+dns-server 10.10.10.66
 ip dhcp pool HR-VLAN30
 network 10.10.10.128 255.255.255.192
 default-router 10.10.10.129
+dns-server 10.10.10.130
 ip dhcp pool Management-VLAN40
 network 10.10.10.192 255.255.255.224
 default-router 10.10.10.193
-ip dhcp pool NTAD
+dns-server 10.10.10.194
+ip dhcp pool NTAD-VLAN99
 network 10.10.10.224 255.255.255.240
 default-router 10.10.10.225
-ip dhcp pool Guest
+dns-server 10.10.10.226
+ip dhcp pool Guest-VLAN60
 network 10.10.10.240 255.255.255.248
 default-router 10.10.10.241
+dns-server 10.10.10.242
 end  
 conf t
 
