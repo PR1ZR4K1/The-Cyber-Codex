@@ -8,6 +8,7 @@ Tags:
 
 - Course introduction
 	- Course name
+    - Be cool
 	- End goal
 
 - My background
