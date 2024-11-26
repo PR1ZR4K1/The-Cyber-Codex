@@ -1,4 +1,4 @@
- t2024/10/03 13:25
+m f t2024/10/03 13:25
 Status: #idea
 Tags:
 
@@ -67,7 +67,7 @@ switchport access vlan 30
 interface range gi1/0/10
 no shut
 switchport mode access  
-switchport access vlan 40
+switchport access vlan
 interface gi1/0/11
 no shut
 switchport mode access  
