@@ -59,7 +59,7 @@ switchport access vlan 10
 interface range gi1/0/5-7
 no shut
 switchport mode access  
-switchport access vlan 20  
+switchport access vlan 20   
 interface range gi1/0/8-9
 no shut
 switchport mode access  
